@@ -1,0 +1,14 @@
+main: com.LucasRomier.BetterMobAI.MobAI
+version: "3.0.1 alpha"
+name: BetterMobAI
+author: whereisthemonkey
+api-version: "1.15"
+
+commands:
+  BetterMobAI:
+    permission: BetterMobAI.reload
+  
+permissions:
+  BetterMobAI.reload:
+    description: Allows to reload the plugin
+    default: op
